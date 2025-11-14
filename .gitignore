@@ -1,0 +1,43 @@
+################################################################################
+# Ficheiro .gitignore ajustado para Visual Studio e .NET
+################################################################################
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build e ficheiros temporários
+**/bin/
+**/obj/
+**/TestResults/
+**/out/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Ficheiros de cache problemáticos
+*.assets.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
+/LogisControlAPI.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_LogisControlAPI.Tests
+/LogisControlAPI.Tests/obj/Debug/net8.0/LogisControlAPI.Tests.AssemblyInfo.cs
+/LogisControlAPI.Tests/obj/project.nuget.cache
+/LogisControlAPI.Tests/obj/project.assets.json
+/LogisControlAPI.Tests/obj/Debug/net8.0/LogisControlAPI.Tests.AssemblyInfoInputs.cache
+/LogisControlAPI.Tests/obj/Debug/net8.0/LogisControlAPI.Tests.assets.cache
+/LogisControlAPI.Tests/obj/Debug/net8.0/LogisControlAPI.Tests.csproj.AssemblyReference.cache
+/LogisControlAPI.Tests/obj/Debug/net8.0/LogisControlAPI.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/LogisControlAPI.Tests/obj/LogisControlAPI.Tests.csproj.nuget.dgspec.json
+/LogisControlAPI.Tests/obj/LogisControlAPI.Tests.csproj.nuget.g.props
+/LogisControlAPI/obj/Debug/net8.0/LogisControlAPI.GeneratedMSBuildEditorConfig.editorconfig
+/LogisControlAPI/obj/Debug/net8.0/LogisControlAPI.AssemblyInfoInputs.cache
+/LogisControlAPI/obj/Debug/net8.0/LogisControlAPI.assets.cache
+/LogisControlAPI/.vs/LogisControlAPI/DesignTimeBuild/.dtbcache.v2
+/LogisControlAPI/.vs/LogisControlAPI/v17/.suo
+/LogisControlAPI/.vs/LogisControlAPI/v17/.futdcache.v2
+/LogisControlAPI/.vs/LogisControlAPI/DesignTimeBuild/.dtbcache.v2
+/LogisControlAPI/.vs/LogisControlAPI/v17/.futdcache.v2
